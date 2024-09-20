@@ -49,6 +49,7 @@ A function parses the model’s response using regular expressions to **extract 
 
 ```python
 pattern = r"(Question \d+:) | (\\n\\n\\[Correct Answer\\]:)"
+```
 
 ### 2. Data Storage
 Two dictionaries are initialized:
@@ -71,6 +72,7 @@ The `grade_exam()` function calculates the score by comparing the student’s an
 for q_num in correct_answers:
     if student_answers[q_num] == correct_answers[q_num]:
         score += 1
+```
 
 ### 6. Modular Structure
 The system is built with **modular components** to ensure scalability and maintainability:
