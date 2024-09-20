@@ -1,4 +1,4 @@
-# Quiz Automation System Design Proposal
+# Quiz Automation System Design
 
 ## Project Motivation
 This project was initiated after observing how time-consuming it was for our family, who works with children with developmental disabilities, to manually create simple quizzes. Even though the questions were straightforward, creating them manually consumed significant time. To streamline this process, we developed a system that **automatically generates quizzes and grades answers**.
